@@ -33,6 +33,7 @@ Theme works with:
 
 - This theme needs the pressbooks-metadata-related-content plugin activated to show the fields in frontend.
 
+- Luther theme (pressbooks-book).
 
 ## Disclaimers 
 The modificated Pressbooks theme is supplied "as is" and all use is at your own risk.
@@ -43,7 +44,7 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 
 
 ## Changelogs 
-### 0.2
+### 0.1
 * **ADDITONS**
 	* New sidebar.php
  	
@@ -70,15 +71,11 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 	* pop-out.js
 
 
-### 0.1
-* **REQUERIRED**
-	* Austin theme.
 
 ## Upgrade Notice 
-### 0.2
-To use the version 2.0 of theme.
+
 ### 0.1
-To begin with the Austen  theme.
+To use the version 2.0 of  Austen theme.
 
 ## Credits 
 Here's a link to [WordPress Plugin Boilerplate](http://wppb.io/).
