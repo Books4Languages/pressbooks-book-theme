@@ -56,8 +56,8 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
  		* New action:**wp_enqueue_scripts**: call a theme_enqueue_styles function and is in functions.php
  		* New action: **wp_enqueue_scripts**: call a pm_enqueue_scripts function and is in functions.php
  	
- 	*In style.css
- 		*New style: this new styles add styles to new buttoms in sidebar and add style to pop-out.
+ 	* In style.css
+ 		* New style: this new styles add styles to new buttoms in sidebar and add style to pop-out.
  		
 
 * **List of files revised**
