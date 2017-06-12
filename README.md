@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description  
 
-Austen a child theme of pressbooks Luther theme. This theme print the multiples fields that are create in pressbooks-metadata-related-content plugin in the frontend.
+Austen is a child theme of pressbooks Luther theme. This theme has been modificated and print the multiples fields that are create in pressbooks-metadata-related-content plugin in the frontend. This theme needs the pressbooks-metadata-related-content plugin activated to show the fields in frontend.
 
 ## Installation 
 1. Clone (or copy) this repository to the /wp-content/themes/ directory.
@@ -35,7 +35,7 @@ Theme works with:
 The modificated Pressbooks theme is supplied "as is" and all use is at your own risk.
 
 ## Screenshots 
-You can see all of the screenshots of the theme [here](https://github.com/Books4Languages/pressbooks-metadata-related_content/blob/master/pressbooks-related-content/screenshots/screenshots.md).
+You can see all of the screenshots of the theme [here](https://github.com/Books4Languages/pressbooks-books4languages-child/blob/master/books4languages/screenshots/screenshots.md).
 ## Roadmap
 
 
