@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description  
 
-Austin a child theme of pressbooks Luther theme. This theme print the multiples fields that are create in pressbooks-metadata-related-content plugin in the frontend.
+Austen a child theme of pressbooks Luther theme. This theme print the multiples fields that are create in pressbooks-metadata-related-content plugin in the frontend.
 
 ## Installation 
 1. Clone (or copy) this repository to the /wp-content/themes/ directory.
@@ -42,25 +42,30 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 ## Changelogs 
 ### 0.2
 * **ADDITONS**
- 
- 	* New custom metabox called **Resources** with links fields. 
+	* New sidebar.php
+ 	
+ 		* New file: **sidebar.php** this files contains the copy of sidebar.php Luther but it has been modified. In this file are added new buttoms for the new sidebar and new divs that are the pop out.
+ 		* New file: **pop-out.js**  that contains the function **click**.
+ 		* New function: **click** that add or remove the pop-out this function is called by all the buttoms that are in sidebar.  
 
-		* New multiple field: **video**: Video link
-		* New multiple field: **audio**: Audio link
-		* New multiple field: **exercises**: Exercises link
-		* New multiple field: **activities**: Activities link
-		* New multiple field: **bibliography**: Bibliography link
-		* New class: **Pb_Rc_Chapter** that contains the functions **add_metadata**, **print_chapter_r_fields** and **get_instance**. This class is in includes/class-external-content.php.
-		* New function: **add_metadata** that produce the resources links to Resource metabox in custom post Chapter.
-		* New function: **print_chapter_r_fields** that create a table that contains the chapter links and print this in frontend. This function is called in functions.php that is in pressbooks-books4languages-child(theme).
-		* New function: **get_instance** that return the instance of Pb_Rc_Chapter class. This function is called in pressbooks-related-content.php and functions.php that is in pressbooks-books4languages-child(theme).
-		* New function:  **define_metadata_changes** that create a instance of Pb_Rc_Chapter and defines all the metaboxes and their fields. This function is in include/pressbooks-related-content.php.
-		* New action : **custom_metadata_manager_init_metadata** that call add_metadata function.
+* **ENHANCEMENTS**
+
+	* In functions.php
+		* New function: **print_chapter_resources_fields**, this function prints all the information about the resources links that are in pressbooks-metadata-related-content plugin. This function is called by sidebar.php in div with id="resource" and is in functions.php
+ 		* New function: **pm_enqueue_scripts**: this function fixes pop-out for  extra sidebar buttons and is in functions.php
+ 		* New action:**wp_enqueue_scripts**: call a theme_enqueue_styles function and is in functions.php
+ 		* New action: **wp_enqueue_scripts**: call a pm_enqueue_scripts function and is in functions.php
+ 	
+ 	*In style.css
+ 		*New style: this new styles add styles to new buttoms in sidebar and add style to pop-out.
+ 		
 
 * **List of files revised**
 
-	* includes/class-external-content.php
-	* includes/class-pressbooks-related-content.php
+	* functions.php
+	* sidebar.php
+	* style.css
+	* pop-out.js
 
 
 ### 0.1
@@ -71,7 +76,7 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 ### 0.2
 To use the version 2.0 of theme.
 ### 0.1
-To begin with the Austin  theme.
+To begin with the Austen  theme.
 
 ## Credits 
 Here's a link to [WordPress Plugin Boilerplate](http://wppb.io/).
