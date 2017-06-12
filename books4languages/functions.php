@@ -19,16 +19,6 @@
  }
  add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
-/**
- * Prints all the informations about the Resources
-**/
-
-function print_chapter_resources_fields(){
-
-	$resources= new Pb_Rc_Chapter('Pressbooks-related-content', '0.1' );
-	$resources-> print_chapter_r_fields();
-	
-}
 
 /**
  * Fixes pop-out for extra sidebar buttons.

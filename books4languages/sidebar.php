@@ -1,8 +1,9 @@
+<!-- Code of sibebar -->
 <?php global $blog_id; ?>
 	<?php if (get_option('blog_public') == '1' || (get_option('blog_public') == '0' && current_user_can_for_blog($blog_id, 'read'))): ?>
-
+	<!-- Create a sidebar-->
 	<div id="sidebar">
-
+	<!-- Create a buttons-->
 		<ul id="booknav">
 		<!-- If Logged in show ADMIN -->
 			<?php global $blog_id; ?>
@@ -118,13 +119,13 @@
 		</div><!-- end #toc -->
 
 		<?php endif; ?>
-		<!-- Pop out resources -->
+		<!-- Pop out resources, this div is visible when the usuari click on resources button-->
 		<div id="resource">
 			<a href="#" class="close"> <?php _e('Close', 'pressbooks'); ?></a>
-			<?php
-				// call a function in functions.php
-				 print_chapter_resources_fields();
-			?>
+			<!-- Instace of Pb_Rc_Chapter and call the function of this class-->
+			<?php  
+			$resources= new Pb_Rc_Chapter('Pressbooks-related-content', '0.1' );
+			$resources-> print_chapter_r_fields();?>
 		</div>
 
 	</div><!-- end #sidebar -->
