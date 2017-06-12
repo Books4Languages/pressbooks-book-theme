@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description  
 
-Austen is a child theme of pressbooks Luther theme. This theme has been modificated and print the multiples fields that are create in pressbooks-metadata-related-content plugin in the frontend. This theme needs the pressbooks-metadata-related-content plugin activated to show the fields in frontend.
+Austen is a child theme of pressbooks Luther theme. This theme has been modificated and print the multiples fields that are create in pressbooks-metadata-related-content plugin in the frontend. 
 
 ## Installation 
 1. Clone (or copy) this repository to the /wp-content/themes/ directory.
@@ -30,6 +30,9 @@ Theme works with:
 - ![PHP](https://img.shields.io/badge/PHP-5.6.X-blue.svg)
 
 - [![Pressbooks](https://img.shields.io/badge/Pressbooks-V%203.9.9-red.svg)](https://github.com/pressbooks/pressbooks/releases/tag/3.9.9)
+
+- This theme needs the pressbooks-metadata-related-content plugin activated to show the fields in frontend.
+
 
 ## Disclaimers 
 The modificated Pressbooks theme is supplied "as is" and all use is at your own risk.
@@ -48,8 +51,6 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
  		* New file: **pop-out.js**  that contains the function **click**.
  		* New function: **click** that add or remove the pop-out this function is called by all the buttoms that are in sidebar.  
 
-* **ENHANCEMENTS**
-
 	* In functions.php
 		* New function: **print_chapter_resources_fields**, this function prints all the information about the resources links that are in pressbooks-metadata-related-content plugin. This function is called by sidebar.php in div with id="resource" and is in functions.php
  		* New function: **pm_enqueue_scripts**: this function fixes pop-out for  extra sidebar buttons and is in functions.php
@@ -58,7 +59,8 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
  	
  	* In style.css
  		* New style: this new styles add styles to new buttoms in sidebar and add style to pop-out.
- 		
+
+		
 
 * **List of files revised**
 
