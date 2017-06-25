@@ -19,7 +19,21 @@
  }
  add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
+/**
+ * Returns true if $ type is a post type part and if the function 
+ *are_related_books_enabled($post->ID) return true
+ */
 
+function is_post_type($type){
+    global $wp_query;
+    global $post;
+    $RBF= new Pb_Rc_Books('Pressbooks-related-content', '0.1' );
+    if($type == get_post_type($wp_query->post->ID ))
+    	$res=$RBF->are_related_books_enabled($post->ID);
+    if($res==true)
+    	return true;
+    return false;
+}
 /**
  * Fixes pop-out for extra sidebar buttons.
  */
@@ -32,3 +46,4 @@ function pm_enqueue_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'pm_enqueue_scripts' );
+

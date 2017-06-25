@@ -11,12 +11,20 @@
 				<li class="admin-btn"><a href="<?php echo get_option('home'); ?>/wp-admin"><?php _e('Admin', 'pressbooks'); ?></a></li>
 			<?php endif; ?>
 		
-				<li class="home-btn"><a href="<?php echo get_option('home'); ?>"><?php _e('Home', 'pressbooks'); ?></a></li>
+				<li class="home-btn"><a href="#"><?php _e('Home', 'pressbooks'); ?></a></li>
 
 		<!-- TOC button always there -->
 				<li class="toc-btn"><a href="<?php echo get_option('home'); ?>/table-of-contents"><?php _e('Table of Contents', 'pressbooks'); ?></a></li>
 
-				<li class="resource-btn"><a href="<?php echo get_option('home'); ?>"><?php _e('Resources', 'pressbooks'); ?></a></li>
+			<?php
+			//only show if is a part
+			 if (is_post_type('part') ) {
+			?>
+		<!-- Info button if there are metadata -->
+			<li class="page-info-btn"><a href="#"> <?php _e('Page Info', 'pressbooks'); ?></a></li>
+			<?php 
+			}
+			?>
 			</ul>
 
 		<!-- Pop out TOC only on READ pages -->
@@ -119,14 +127,19 @@
 		</div><!-- end #toc -->
 
 		<?php endif; ?>
-		<!-- Pop out resources, this div is visible when the usuari click on resources button-->
-		<div id="resource">
-			<a href="#" class="close"> <?php _e('Close', 'pressbooks'); ?></a>
-			<!-- Instace of Pb_Rc_Chapter and call the function of this class-->
-			<?php  
-			$resources= new Pb_Rc_Chapter('Pressbooks-related-content', '0.1' );
-			$resources-> print_chapter_r_fields();?>
+		
+		<!-- Pop out resources, this div is visible when the usuari click on resources button
+		
+		<!-- Page info metadata	-->
+		<div id="page-info">			
+		<a href="#" class="close"><?php _e('Close', 'pressbooks'); ?></a>
+		<?php 
+			//prints the values fields of Pb_Rc_Books class
+			echo do_shortcode('[related_books ]')
+			
+		?>
 		</div>
+
 
 	</div><!-- end #sidebar -->
 	<?php endif; ?>

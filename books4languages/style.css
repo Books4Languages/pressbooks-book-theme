@@ -169,6 +169,28 @@ h3, h4, h5 {
     background-position: 50% 36%;
 }
 
+
+.page-info-btn a {
+    background-image: url("images/info.png");
+    background-repeat: no-repeat;
+    background-position: 50% 36%;
+}
+
+#page-info a.close, #related-books a.close, #resource a.close {
+        background-position: 260px -50px;
+    }
+ #page-info, #related-books, #resource {
+        position: relative;
+        margin-top: 47px;
+        margin-left: 0px;
+        z-index: 100;
+    }
+#related-books {
+        max-width: 180px;
+        margin-top: 47px;
+        margin-left: 0;
+        z-index: 100;
+    }	
 /*************************
 	Footnotes & Endnote
 **************************/

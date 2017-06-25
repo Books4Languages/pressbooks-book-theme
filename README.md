@@ -44,11 +44,37 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 
 
 ## Changelogs 
+### 0.2
+* **ADDITONS**
+	* New footer
+
+			* New file: **footer.php** this file contains the copy of footer.php Luther but it has been modified. New parts are added to the footer. It shows the list of resources links and the link wiith a image of the book on which it is based. For this it calls the respective shortcodes: **related_content** and **related_based**.
+	* In functions.php
+
+			* New function: **is_post_type($type)** that returns true if $type is a post type part and if the function are_related_books_enabled($post->ID) return true. The are_related_books_enabled are in pressbooks-related-content and is in charge of seeing if the checkbox is activated or not.
+	* In sidebar.php
+
+			* New button: **page-info**. This button will only be displayed if post type is part and if the checkbox enable of the class Pb_Rc_Books of Pressbooks-related-content plugin is enabled.
+			* New div: **page-info**. In this div is called the related_books shortcode that prints the values of fields of Pb_Rc_Books class.
+
+
+* **ENHANCEMENTS**
+	* Remove the resources button and resources div from the sidebar. Instead put the list in the footer.
+
+		
+
+* **List of files revised**
+
+	* functions.php
+	* sidebar.php
+	* footer.php
+
+
 ### 0.1
 * **ADDITONS**
 	* New sidebar.php
  	
- 		* New file: **sidebar.php** this files contains the copy of sidebar.php Luther but it has been modified. In this file are added new buttons for the new sidebar and new divs that are the pop out for the new buttons. This file contains the called to print_chapter_r_fields. This function is in  pressbooks-metadata-related-content  plugin and  prints all the information about the resources links that are in pressbooks-metadata-related-content plugin.
+ 		* New file: **sidebar.php** this file contains the copy of sidebar.php Luther but it has been modified. In this file are added new buttons for the new sidebar and new divs that are the pop out for the new buttons. This file contains the called to print_chapter_r_fields. This function is in  pressbooks-metadata-related-content  plugin and  prints all the information about the resources links that are in pressbooks-metadata-related-content plugin.
  		* New file: **pop-out.js**  that contains the function **click**.
  		* New function: **click** that add or remove the pop-out this function is called by all the buttoms that are in sidebar.  
 
@@ -71,11 +97,13 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 	* pop-out.js
 
 
-
 ## Upgrade Notice 
 
+### 0.2
+To use the last version of this theme.
+
 ### 0.1
-To use the version 2.0 of  Austen theme.
+To use the version 0.1 of  Austen theme.
 
 ## Credits 
 Here's a link to [WordPress Plugin Boilerplate](http://wppb.io/).
