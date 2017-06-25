@@ -48,14 +48,14 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 * **ADDITONS**
 	* New footer
 
-			* New file: **footer.php** this file contains the copy of footer.php Luther but it has been modified. New parts are added to the footer. It shows the list of resources links and the link wiith a image of the book on which it is based. For this it calls the respective shortcodes: **related_content** and **related_based**.
+		* New file: **footer.php** this file contains the copy of footer.php Luther but it has been modified. New parts are added to the footer. It shows the list of resources links and the link wiith a image of the book on which it is based. For this it calls the respective shortcodes: **related_content** and **related_based**.
 	* In functions.php
 
-			* New function: **is_post_type($type)** that returns true if $type is a post type part and if the function are_related_books_enabled($post->ID) return true. The are_related_books_enabled are in pressbooks-related-content and is in charge of seeing if the checkbox is activated or not.
+		* New function: **is_post_type($type)** that returns true if $type is a post type part and if the function are_related_books_enabled($post->ID) return true. The are_related_books_enabled are in pressbooks-related-content and is in charge of seeing if the checkbox is activated or not.
 	* In sidebar.php
 
-			* New button: **page-info**. This button will only be displayed if post type is part and if the checkbox enable of the class Pb_Rc_Books of Pressbooks-related-content plugin is enabled.
-			* New div: **page-info**. In this div is called the related_books shortcode that prints the values of fields of Pb_Rc_Books class.
+		* New button: **page-info**. This button will only be displayed if post type is part and if the checkbox enable of the class Pb_Rc_Books of Pressbooks-related-content plugin is enabled.
+		* New div: **page-info**. In this div is called the related_books shortcode that prints the values of fields of Pb_Rc_Books class.
 
 
 * **ENHANCEMENTS**
