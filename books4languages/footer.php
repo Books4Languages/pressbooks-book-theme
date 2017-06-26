@@ -53,7 +53,8 @@
 			 <p align="center">
 			 <!-- call shortcodes of presbooks-related-content plugin-->
 			<?php  echo do_shortcode('[related_content type="all"]')?>	
-			<?php  echo do_shortcode('[related_based]')?>				
+			<?php  echo do_shortcode('[related_based]')?>	
+			<?php echo do_shortcode('[related_books ]')?>			
 			</p>
 
 	</div><!-- #inner -->
