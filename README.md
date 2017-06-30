@@ -68,18 +68,18 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 * **ADDITONS**
 	* New sidebar.php
  	
- 		* New file: **sidebar.php** this file contains the copy of sidebar.php Luther but it has been modified. In this file are added new buttons for the new sidebar and new divs that are the pop out for the new buttons. This file contains the called to print_chapter_r_fields. This function is in  pressbooks-metadata-related-content  plugin and  prints all the information about the resources links that are in pressbooks-metadata-related-content plugin.
+ 		* New file: **sidebar.php** in this file are added new buttons for the new sidebar and new divs that are the pop out for the new buttons. Prints all the information about the resources links that are in pressbooks-metadata-related-content plugin.
  		* New file: **pop-out.js**  that contains the function **click**.
- 		* New function: **click** that add or remove the pop-out this function is called by all the buttoms that are in sidebar.  
+ 		* New function: **click** that add or remove the pop-out.  
 
 	* In functions.php
 	
- 		* New function: **pm_enqueue_scripts**: this function fixes pop-out for  extra sidebar buttons and is in functions.php
- 		* New action:**wp_enqueue_scripts**: call a theme_enqueue_styles function and is in functions.php
- 		* New action: **wp_enqueue_scripts**: call a pm_enqueue_scripts function and is in functions.php
+ 		* New function: **pm_enqueue_scripts**: this function fixes pop-out for  extra sidebar buttons.
+ 		* New action:**wp_enqueue_scripts**: call a theme_enqueue_styles function.
+ 		* New action: **wp_enqueue_scripts**: call a pm_enqueue_scripts function.
  	
  	* In style.css
- 		* New style: this new styles add styles to new buttons in sidebar and add style to pop-out.
+ 		* New style: add styles to new buttons in sidebar and add style to pop-out.
 
 		
 
