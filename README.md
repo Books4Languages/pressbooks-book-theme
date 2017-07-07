@@ -48,7 +48,7 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 * **ADDITONS**
 	* New footer
 
-		* New file: **footer.php** this file contains the copy of footer.php Luther but it has been modified. Shows the list of resources links, also shows the link with a image of the book on which it is based and also shows the related books information.
+		* New file: **footer.php** this file contains the copy of footer.php Luther but it has been modified. Shows the list of resources links,  shows the link with a image of the book on which it is based, shows the related books information and also show the Educational information.
 
 	* In functions.php
 
