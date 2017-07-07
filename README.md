@@ -48,11 +48,11 @@ You can see all of the screenshots of the theme [here](https://github.com/Books4
 * **ADDITONS**
 	* New footer
 
-		* New file: **footer.php** this file contains the copy of footer.php Luther but it has been modified. Shows the list of resources links,  shows the link with a image of the book on which it is based, shows the related books information and also show the Educational information.
+		* New file: **footer.php** Shows the list of resources links,  shows the link with a image of the book on which it is based, shows the related books information and also show the Educational information.
 
 	* In functions.php
 
-		* New function: **is_post_type($type)** returns true if type is a post type part and if  **are_related_books_enabled($post->ID)** return true. The **are_related_books_enabled** that is in charge of seeing if the checkbox is activated or not.
+		* New function: **is_post_type($type)** returns true if type is a post type part and if  **are_related_books_enabled($post->ID)** return true. 
 
 
 * **ENHANCEMENTS**
