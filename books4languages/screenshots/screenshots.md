@@ -17,6 +17,9 @@ RELATED BOOKS IN FRONTEND
 
 ![Related books in frontend](https://github.com/Books4Languages/pressbooks-books4languages-child/blob/master/books4languages/screenshots/related_books_footer.JPG)
 
+EDUCATIONAL INFORMATION IN FRONTEND
+![Related books in frontend](https://github.com/Books4Languages/pressbooks-books4languages-child/blob/master/books4languages/screenshots/Educational_info.JPG)
+
 
 ### 0.1
 ![Resources in frontend-1](https://github.com/Books4Languages/pressbooks-metadata-related_content/blob/master/pressbooks-related-content/screenshots/Frontend.JPG)
