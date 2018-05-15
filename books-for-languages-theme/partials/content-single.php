@@ -2,11 +2,20 @@
 <header>
 	<h1 class="entry-title">
 	<?php
+
 	if ( has_post_thumbnail() ) {
-		echo get_the_post_thumbnail($post);
-	} else { ?>
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/96-cover.jpg" alt="<?php the_title(); ?>" />
-	<?php }
+		$option = get_option("pressbooks_theme_options_web");
+		if ($option['webbook_width'] == '30em'){
+			the_post_thumbnail('featured-narrow');
+		}
+		if ($option['webbook_width'] == '40em'){
+			the_post_thumbnail('featured-standard');
+		}
+		if ($option['webbook_width'] == '48em'){
+			the_post_thumbnail('featured-wide');
+		}
+	}
+	
 	if ( $number ) {
 		echo "<span>$number</span> ";
 	}
