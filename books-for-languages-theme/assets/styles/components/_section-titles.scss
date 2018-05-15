@@ -1,0 +1,59 @@
+$section-header-margin-top: (epub: 0, prince: 0, web: 3em) !default;
+$section-header-margin-bottom: (epub: 4em, prince: 2cm, web: 2em) !default;
+
+$section-title-margin-bottom: (epub: 2em, prince: 0.125cm, web: 2em) !default;
+$section-title-subtitle-spacing: (epub: 2em, prince: 0.125cm, web: 2em) !default;
+$section-title-font-size: (epub: 1.33em, prince: 1.33em, web: 2em) !default;
+$section-title-font-weight: bold !default;
+$section-title-align: left !default;
+
+$section-subtitle-margin-bottom: (epub: 1em, prince: 0.125cm, web: 0.5em) !default;
+$section-subtitle-author-spacing: (epub: 1em, prince: 0.125cm, web: 0.5em) !default;
+$section-subtitle-font-size: (epub: 1.33em, prince: 1.0833em, web: 1em) !default;
+$section-subtitle-align: left !default;
+
+$section-author-margin-bottom: (epub: 1.5em, prince: 0.625cm, web: 0.5em) !default;
+$section-author-font-size: (epub: 0.9em, prince: 0.833em, web: 1em) !default;
+$section-author-font-weight: bold;
+$section-author-align: left !default;
+$section-author-text-transform: none !default;
+
+$aphorism-block-width: 70% !default;
+$aphorism-font-style: italic !default;
+$aphorism-align: center !default;
+$aphorism-cite-font-size: 0.875em !default;
+$aphorism-cite-font-variant: small-caps !default;
+$aphorism-cite-align: right !default;
+
+$part-number-margin-top: (epub: 1.125em, prince: 0.5cm, web: 1em) !default;
+$part-number-font-size: 1.33em !default;
+$part-number-align: left !default;
+$part-title-font-size: 1.75em !default;
+$part-title-font-weight: bold !default;
+$part-title-align: left !default;
+$part-title-text-transform: none !default;
+
+$chapter-number-margin-top: (epub: 1.125em, prince: 0.5cm, web: 1em) !default;
+$chapter-number-margin-bottom: (epub: 1.125em, prince: 0.5cm, web: 1em) !default;
+$chapter-number-font-size: (epub: 1.33em, prince: 1.33em, web: 1em) !default;
+$chapter-number-font-weight: bold !default;
+$chapter-number-align: left !default;
+$chapter-title-font-weight: bold !default;
+
+// Override variables above this line, using the !default flag to allow further overrides.
+@import 'variables/section-titles';
+
+// Add custom SCSS below these imports and includes.
+@import 'components/section-titles';
+
+.part-number::before {
+  content: '' !important;
+}
+
+.part-title-wrap,
+.front-matter-title-wrap,
+.chapter-title-wrap,
+.back-matter-title-wrap,
+section header {
+  border-top: 1px solid #000;
+}
