@@ -1,5 +1,5 @@
 # Screenshots
-### 0.1
+### 0.3
 
 #### Featured image with 'Narrow' book width (540 px):
 
