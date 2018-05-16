@@ -1,6 +1,8 @@
-# pressbooks-book-theme
+# pressbooks-b4l-child
 
-Contributors: @colomet,  @nicoleacuna
+A WordPress child theme for Pressbooks McLuhan theme.
+
+Contributors: @colomet,  @danzhik 
 
 Tags: pressbooks, theme
 
@@ -15,10 +17,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description  
 
-Austen is a child theme of pressbooks Luther theme. This theme has been modificated and print the multiples fields that are create in pressbooks-metadata-related-content plugin in the frontend. 
+Pressboks B4L child theme is a child theme based on pressbooks Clarke theme. This theme has been modified with support of featured images for posts in back-end and displaying them in the single post front-end.  
 
 ## Installation 
-1. Clone (or copy) this repository to the /wp-content/themes/ directory.
+1. Clone (or copy) this repository to the ```/wp-content/themes/``` directory.
 2. Activate the theme through the 'Themes' screen in WordPress.
 
 ## Frequently Asked Questions 
@@ -27,19 +29,18 @@ Austen is a child theme of pressbooks Luther theme. This theme has been modifica
 ## Requirements 
 Theme works with:
 
-- ![PHP](https://img.shields.io/badge/PHP-5.6.X-blue.svg)
+- ![PHP](https://img.shields.io/badge/PHP-7.X-blue.svg)
 
-- [![Pressbooks](https://img.shields.io/badge/Pressbooks-V%203.9.9-red.svg)](https://github.com/pressbooks/pressbooks/releases/tag/3.9.9)
+- [![Pressbooks](https://img.shields.io/badge/Pressbooks-V%205.3.0-red.svg)](https://github.com/pressbooks/pressbooks/releases)
 
-- This theme needs the pressbooks-metadata-related-content plugin activated to show the fields in frontend.
 
-- Luther theme (pressbooks-book).
+- [![McLuhan Theme](https://img.shields.io/badge/McLuhanTheme-V%202.3.0-red.svg)](https://github.com/pressbooks/pressbooks-book/releases).
 
 ## Disclaimers 
-The modificated Pressbooks theme is supplied "as is" and all use is at your own risk.
+The modificated Pressbooks child theme is supplied "as is" and all use is at your own risk.
 
 ## Screenshots 
-You can see all of the screenshots of the theme [here](https://github.com/Books4Languages/pressbooks-books4languages-child/blob/master/books4languages/screenshots/screenshots.md).
+You can see all of the screenshots of the theme [here](books-for-languages-theme/screenshots/screenshots.md).
 ## Roadmap
 
 
