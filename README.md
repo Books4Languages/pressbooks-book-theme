@@ -58,7 +58,7 @@ You can see all of the screenshots of the theme [here](https://github.com/my-lan
     *New featured images
 
 ### 0.2 and older
-[Old changelog 0.2v and 0.1v ](old-changelog-0.1-0.2.md)        
+[Old changelog 0.2v and 0.1v ](https://github.com/my-language-skills/pressbooks-b4l-child/blob/developer/books-for-languages-theme/doc/old-changelog-0.1-0.2.md)        
 
 
 ## Upgrade Notice 
