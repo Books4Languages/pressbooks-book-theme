@@ -6,7 +6,7 @@ Contributors: @colomet,  @danzhik
 
 Tags: pressbooks, theme
 
-Tested up to: [![WordPress](https://img.shields.io/wordpress/v/akismet.svg)](https://wordpress.org/download/)
+Tested up to: [![WordPress](https://img.shields.io/badge/Wordpress-4.9.5-green.svg)](https://codex.wordpress.org/Version_4.9.5)
 
 
 Stable tag: [![Current Release](https://img.shields.io/github/release/Books4Languages/pressbooks-books4languages.svg)](https://github.com/Books4Languages/pressbooks-books4languages/releases/latest/)
@@ -29,7 +29,7 @@ Pressboks B4L child theme is a child theme based on pressbooks Clarke theme. Thi
 ## Requirements 
 Theme works with:
 
-- ![PHP](https://img.shields.io/badge/PHP-7.X-blue.svg)
+- ![PHP](https://img.shields.io/badge/PHP-7.0-blue.svg)
 
 - [![Pressbooks](https://img.shields.io/badge/Pressbooks-V%205.3.0-red.svg)](https://github.com/pressbooks/pressbooks/releases)
 
@@ -55,13 +55,15 @@ You can see all of the screenshots of the theme [here](https://github.com/my-lan
 ### 0.3
 * Completely reorganized design with the use of latest McLuhan theme
 * **ADDITIONS**
-    *New featured images
+    * New featured images
 
 ### 0.2 and older
 [Old changelog 0.2v and 0.1v ](https://github.com/my-language-skills/pressbooks-b4l-child/blob/developer/books-for-languages-theme/doc/old-changelog-0.1-0.2.md)        
 
 
 ## Upgrade Notice 
+### 0.3
+Featured Image Pressboks CPTs integration
 
 ### 0.2
 To use the last version of this theme.
