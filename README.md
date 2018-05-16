@@ -6,8 +6,6 @@ Contributors: @colomet,  @danzhik
 
 Tags: pressbooks, theme
 
-Tested up to: [![WordPress](https://img.shields.io/badge/Wordpress-4.9.5-green.svg)](https://codex.wordpress.org/Version_4.9.5)
-
 
 Stable tag: [![Current Release](https://img.shields.io/github/release/Books4Languages/pressbooks-books4languages.svg)](https://github.com/Books4Languages/pressbooks-books4languages/releases/latest/)
 
@@ -28,13 +26,14 @@ Pressboks B4L child theme is a child theme based on pressbooks Clarke theme. Thi
 
 ## Requirements 
 Theme works with:
+- [![WordPress](https://img.shields.io/badge/Wordpress-4.9.5-green.svg)](https://codex.wordpress.org/Version_4.9.5)
 
 - ![PHP](https://img.shields.io/badge/PHP-7.0-blue.svg)
 
-- [![Pressbooks](https://img.shields.io/badge/Pressbooks-V%205.3.0-red.svg)](https://github.com/pressbooks/pressbooks/releases)
+- [![Pressbooks](https://img.shields.io/badge/Pressbooks-V%205.3.0-red.svg)](https://github.com/pressbooks/pressbooks/releases/tag/5.3.0)
 
 
-- [![McLuhan Theme](https://img.shields.io/badge/McLuhanTheme-V%202.3.0-red.svg)](https://github.com/pressbooks/pressbooks-book/releases).
+- [![McLuhan Theme](https://img.shields.io/badge/McLuhanTheme-V%202.3.0-red.svg)](https://github.com/pressbooks/pressbooks-book/releases/tag/2.3.0).
 
 ## Disclaimers 
 The modificated Pressbooks child theme is supplied "as is" and all use is at your own risk.
